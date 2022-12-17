@@ -6,7 +6,7 @@
 SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.com/main/talk/solvingClub/clubView.do?solveclubId=AYLzCd9qnSYDFATf)
 
 팀 노션 : [알고리즘 스터디](https://aware-energy-8fb.notion.site/c249a1f5c2c249ca9768b9e1c2a24c70)
-## 🏷 11월 스터디 계획
+## 🏷 11~12월 스터디 계획
 - 매주 공통으로 푸는 문제 1개 선정
   - 해당 문제는 스터디 날에 리뷰
 - 각자 부족한 분야의 문제 풀이
@@ -15,7 +15,8 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 #### 참고 문제집 : [IT기업 및 대기업 계열사 코테보면서 비슷했던 문제들(지속적으로 업데이트 중)](https://www.acmicpc.net/workbook/view/8708)
 
 ## 💡 12월 스터디 진행도
-참여(문제풀이여부)
+- 참여여부(공통 문제풀이여부)
+
 |주차|김세희|이광용|이해민|홍예진|황예은|--비고|
 |-----|-----|-----|-----|-----|-----|-----|
 ||[@shshshee](https://github.com/shshshee)|[@encoreKwang](https://github.com/encoreKwang)|[@leepeace](https://github.com/leepeace)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)||
@@ -35,10 +36,10 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 |5주차(22.12.24 - 22.12.31)||[번 ]()|
 
 #### ✏ 개인 풀이 문제 : 
-|풀이자|1주차<br/>()|2주차<br/>()|3주차<br/>(22.12.10 - 22.12.17)|4주차<br/>()|
-|---|---|---|---|---|
-|김세희|[PRO 피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946)|-|-|-||
-|이광용|[BOJ 18808번 스티커붙이기](https://www.acmicpc.net/problem/18808)|-|-|-||
+|풀이자|1주차<br/>(22.11.26 - 22.12.03)|2주차<br/>(22.12.03 - 22.12.10)|3주차<br/>(22.12.10 - 22.12.17)|4주차<br/>(22.12.17 - 22.12.24)|5주차<br/>(22.12.24 - 22.12.31)|
+|---|---|---|---|---|---|
+|김세희|[PRO 피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946)|-|-|||
+|이광용|[BOJ 18808번 스티커붙이기](https://www.acmicpc.net/problem/18808)|-|-|||
 |이해민|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)|-|[BOJ 최단경로](https://www.acmicpc.net/problem/1753)|||
 |홍예진|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)<br/>[BOJ 17471번 게리맨더링](https://www.acmicpc.net/problem/17471)|-|[BOJ 마법사 상어와 복제](https://www.acmicpc.net/problem/23290)<br/>[BOJ 주사위 굴리기 2](https://www.acmicpc.net/problem/23288)|||
 |황예은|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)|-|-|||
@@ -66,11 +67,11 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 #### ✏ 개인 풀이 문제 : 
 |풀이자|1주차<br/>(22.10.29 - 22.11.05)|2주차<br/>(22.11.05 - 22.11.12)|3주차<br/>(22.11.12 - 22.11.19)|4주차<br/>(22.11.19 - 22.11.26)|
 |---|---|---|---|---|
-|김세희|[BOJ 10836번 여왕벌](https://www.acmicpc.net/problem/10836)|[BOJ 2186번 문자판](https://www.acmicpc.net/problem/2186)|[BOJ 1965번 상자넣기](https://www.acmicpc.net/problem/1965)|개인 풀이 X|
-|이광용|개인 풀이 X|개인 풀이 X|[BOJ 4963번 섬의 개수](https://www.acmicpc.net/problem/4963)|[SWEA 1949번 등산로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq),<br/>[SWEA 2112번 보호 필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu)|
-|이해민|[SWEA 1486번 장훈이의 높은 선반](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw)|[SWEA 1949번 등산로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq)|개인 풀이 X|개인 풀이 X|
-|홍예진|개인일정으로 휴일|[BOJ 1629번 곱셉](https://www.acmicpc.net/problem/1626)|개인 풀이 X|개인 풀이 X|
-|황예은|개인 풀이 X|개인 풀이 X|개인 풀이 X|개인 풀이 X|
+|김세희|[BOJ 10836번 여왕벌](https://www.acmicpc.net/problem/10836)|[BOJ 2186번 문자판](https://www.acmicpc.net/problem/2186)|[BOJ 1965번 상자넣기](https://www.acmicpc.net/problem/1965)|-|
+|이광용|-|-|[BOJ 4963번 섬의 개수](https://www.acmicpc.net/problem/4963)|[SWEA 1949번 등산로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq),<br/>[SWEA 2112번 보호 필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu)|
+|이해민|[SWEA 1486번 장훈이의 높은 선반](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw)|[SWEA 1949번 등산로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq)|-|-|
+|홍예진|개인일정으로 휴일|[BOJ 1629번 곱셉](https://www.acmicpc.net/problem/1626)|-|-|
+|황예은|-|-|-|-|
 
 
 ## 💡 10월 스터디 결과
