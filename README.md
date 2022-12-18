@@ -103,17 +103,30 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 
 ## 💡 9월 스터디 결과
 #### 👩‍👦‍👦 참가자
-- 김상현 @haan823
-- 김세희 @shshshee
-- 이광용 @encoreKwang
-- 이해민 @leepeace
-- 홍예진 @YeJinHong
-- 황예은 @ise-yen
-
+|김상현|김세희|이광용|이해민|홍예진|황예은|
+|-----|-----|-----|-----|-----|-----|
+|[@haan823](https://github.com/haan823)|[@shshshee](https://github.com/shshshee)|[@encoreKwang](https://github.com/encoreKwang)|[@leepeace](https://github.com/leepeace)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)|
 
 
 ## 💡 8월 스터디 결과
+#### 스터디 그룹 : [AlgoStudyS8G4](https://www.acmicpc.net/group/15464)
+
+
 #### 👩‍👦‍👦 참가자
 |김세희|홍예진|황예은|
 |-----|-----|-----|
 |[@shshshee](https://github.com/shshshee)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)|
+
+
+#### ✏ 풀이 문제
+|회차|사이트|문제|
+|:---|---|---|
+|1회차 문풀(22.08.01)|BOJ|[1769번 3의 배수](https://www.acmicpc.net/problem/1769)<br/>[14888번 연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|
+|2회차 과제(22.08.01 - 22.08.02)|BOJ|[10994번 별찍기](https://www.acmicpc.net/problem/10994)<br/>[11729번 하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)|
+|2회차 문풀(22.08.02)|BOJ|[17413번 단어 뒤집기2](https://www.acmicpc.net/problem/17413)|
+|3회차 과제(22.08.02 - 22.08.05)|BOJ|[2484번 주사위 네개](https://www.acmicpc.net/problem/2484)<br/>[1966번 프린터 큐](https://www.acmicpc.net/problem/1966)<br/>[2800번 괄호 제거](https://www.acmicpc.net/problem/2800)|
+|4회차 과제(22.08.05 - 22.08.11)|BOJ|[1062번 가르침](https://www.acmicpc.net/problem/1062)<br/>[5639번 이진 검색 트리](https://www.acmicpc.net/problem/5639)|
+|5회차 과제(22.08.11 - 22.08.16)|BOJ|[11725번 트리의 부모 찾기](https://www.acmicpc.net/problem/11725)<br/>[9934번 완전 이진 트리](https://www.acmicpc.net/problem/9934)|
+|6회차 과제(22.08.16 - 22.08.19)|BOJ|[11000번 강의실 배정](https://www.acmicpc.net/problem/11000)<br/>[16953번 A → B](https://www.acmicpc.net/problem/16953)|
+|7회차 과제(22.08.19 - 22.08.23)|BOJ|[9205번 맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205)<br/>[13904번 과제](https://www.acmicpc.net/problem/13904)|
+|7회차 과제(22.08.23 - 22.08.26)|BOJ|[17070번 파이프 옮기기 1](https://www.acmicpc.net/problem/17070)<br/>[10026번 적록색약](https://www.acmicpc.net/problem/10026)|
