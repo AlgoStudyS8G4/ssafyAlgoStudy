@@ -6,7 +6,7 @@
 SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.com/main/talk/solvingClub/clubView.do?solveclubId=AYLzCd9qnSYDFATf)
 
 팀 노션 : [알고리즘 스터디](https://aware-energy-8fb.notion.site/c249a1f5c2c249ca9768b9e1c2a24c70)
-## 🏷 11월 스터디 계획
+## 🏷 11~12월 스터디 계획
 - 매주 공통으로 푸는 문제 1개 선정
   - 해당 문제는 스터디 날에 리뷰
 - 각자 부족한 분야의 문제 풀이
@@ -15,30 +15,34 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 #### 참고 문제집 : [IT기업 및 대기업 계열사 코테보면서 비슷했던 문제들(지속적으로 업데이트 중)](https://www.acmicpc.net/workbook/view/8708)
 
 ## 💡 12월 스터디 진행도
+- 참여여부(공통 문제풀이여부)
+
 |주차|김세희|이광용|이해민|홍예진|황예은|--비고|
 |-----|-----|-----|-----|-----|-----|-----|
 ||[@shshshee](https://github.com/shshshee)|[@encoreKwang](https://github.com/encoreKwang)|[@leepeace](https://github.com/leepeace)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)||
-|1주차|O|O|O|O|O||
-|2주차| | | | | | |
-|3주차| | | | | | |
-|4주차| | | | | | |
+|1주차(22.12.03)|O(X)|O(O)|O()|O(O)|O(X)||
+|2주차(22.12.10)|X(O)|O(X)|X(X)|O(O)|O(△)|광용: 복습 O|
+|3주차(22.12.17)|O(O)|O(X)|O(O)|O(O)|O(X)||
+|4주차(22.12.24)| | | | | | |
+|5주차(22.12.31)| | | | | | |
 
 #### ✒ 공통 풀이 문제
 |주차|사이트|문제|
 |:---:|---|---|
-|1주차(22.11.26 - 22.12.03)|-|-|
+|1주차(22.11.26 - 22.12.03)|SWEA|[2105번 디저트카페](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5VwAr6APYDFAWu)|
 |2주차(22.12.03 - 22.12.10)|BOJ|[14658번 하늘에서 별똥별이 빗발친다](https://www.acmicpc.net/problem/14658)|
-|3주차(22.12.10 - 22.12.17)| |[번 ]()|
-|4주차(22.12.17 - 22.12.24)| |[번 ]()|
+|3주차(22.12.10 - 22.12.17)|BOJ|[1238번 파티](https://www.acmicpc.net/problem/1238)|
+|4주차(22.12.17 - 22.12.24)|BOJ|[22233번 가희와 키워드](https://www.acmicpc.net/problem/22233)|
+|5주차(22.12.24 - 22.12.31)||[번 ]()|
 
 #### ✏ 개인 풀이 문제 : 
-|풀이자|1주차<br/>(22.10.29 - 22.11.05)|2주차<br/>(22.11.05 - 22.11.12)|3주차<br/>(22.11.12 - 22.11.19)|4주차<br/>(22.11.19 - 22.11.26)|
-|---|---|---|---|---|
-|김세희|[PRO 피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946)||||
-|이광용|[BOJ 18808번 스티커붙이기](https://www.acmicpc.net/problem/18808)||||
-|이해민|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)||||
-|홍예진|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)<br/>[BOJ 17471번 게리맨더링](https://www.acmicpc.net/problem/17471)||||
-|황예은|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)||||
+|풀이자|1주차<br/>(22.11.26 - 22.12.03)|2주차<br/>(22.12.03 - 22.12.10)|3주차<br/>(22.12.10 - 22.12.17)|4주차<br/>(22.12.17 - 22.12.24)|5주차<br/>(22.12.24 - 22.12.31)|
+|---|---|---|---|---|---|
+|김세희|[PRO 피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946)|-|-|||
+|이광용|[BOJ 18808번 스티커붙이기](https://www.acmicpc.net/problem/18808)|-|-|||
+|이해민|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)|-|[BOJ 최단경로](https://www.acmicpc.net/problem/1753)|||
+|홍예진|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)<br/>[BOJ 17471번 게리맨더링](https://www.acmicpc.net/problem/17471)|-|[BOJ 마법사 상어와 복제](https://www.acmicpc.net/problem/23290)<br/>[BOJ 주사위 굴리기 2](https://www.acmicpc.net/problem/23288)|||
+|황예은|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)|-|-|||
 
 
 ## 💡 11월 스터디 결과
@@ -47,9 +51,10 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 |주차|김세희|이광용|이해민|홍예진|황예은|--비고|
 |-----|-----|-----|-----|-----|-----|-----|
 |-|[@shshshee](https://github.com/shshshee)|[@encoreKwang](https://github.com/encoreKwang)|[@leepeace](https://github.com/leepeace)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)||
-|2주차|O|X|X|O|X||
-|3주차|O|O|X|O|X||
-|4주차|O|O|O|O|X|4주차는 최종 프로젝트 마무리<br/>및 코딩테스트으로 스터디 휴식|
+|1주차(22.11.05)|||||||
+|2주차(22.11.12)|O|X|X|O|X||
+|3주차(22.11.19)|O|O|X|O|X||
+|4주차(22.11.26)|O|O|O|O|X|4주차는 최종 프로젝트 마무리<br/>및 코딩테스트으로 스터디 휴식|
 
 #### ✒ 공통 풀이 문제
 |주차|사이트|문제|
@@ -62,11 +67,11 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 #### ✏ 개인 풀이 문제 : 
 |풀이자|1주차<br/>(22.10.29 - 22.11.05)|2주차<br/>(22.11.05 - 22.11.12)|3주차<br/>(22.11.12 - 22.11.19)|4주차<br/>(22.11.19 - 22.11.26)|
 |---|---|---|---|---|
-|김세희|[BOJ 10836번 여왕벌](https://www.acmicpc.net/problem/10836)|[BOJ 2186번 문자판](https://www.acmicpc.net/problem/2186)|[BOJ 1965번 상자넣기](https://www.acmicpc.net/problem/1965)|개인 풀이 X|
-|이광용|개인 풀이 X|개인 풀이 X|[BOJ 4963번 섬의 개수](https://www.acmicpc.net/problem/4963)|[SWEA 1949번 등산로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq),<br/>[SWEA 2112번 보호 필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu)|
-|이해민|[SWEA 1486번 장훈이의 높은 선반](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw)|[SWEA 1949번 등산로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq)|개인 풀이 X|개인 풀이 X|
-|홍예진|개인일정으로 휴일|[BOJ 1629번 곱셉](https://www.acmicpc.net/problem/1626)|개인 풀이 X|개인 풀이 X|
-|황예은|개인 풀이 X|개인 풀이 X|개인 풀이 X|개인 풀이 X|
+|김세희|[BOJ 10836번 여왕벌](https://www.acmicpc.net/problem/10836)|[BOJ 2186번 문자판](https://www.acmicpc.net/problem/2186)|[BOJ 1965번 상자넣기](https://www.acmicpc.net/problem/1965)|-|
+|이광용|-|-|[BOJ 4963번 섬의 개수](https://www.acmicpc.net/problem/4963)|[SWEA 1949번 등산로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq),<br/>[SWEA 2112번 보호 필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu)|
+|이해민|[SWEA 1486번 장훈이의 높은 선반](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw)|[SWEA 1949번 등산로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq)|-|-|
+|홍예진|개인일정으로 휴일|[BOJ 1629번 곱셉](https://www.acmicpc.net/problem/1626)|-|-|
+|황예은|-|-|-|-|
 
 
 ## 💡 10월 스터디 결과
@@ -98,17 +103,30 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 
 ## 💡 9월 스터디 결과
 #### 👩‍👦‍👦 참가자
-- 김상현 @haan823
-- 김세희 @shshshee
-- 이광용 @encoreKwang
-- 이해민 @leepeace
-- 홍예진 @YeJinHong
-- 황예은 @ise-yen
-
+|김상현|김세희|이광용|이해민|홍예진|황예은|
+|-----|-----|-----|-----|-----|-----|
+|[@haan823](https://github.com/haan823)|[@shshshee](https://github.com/shshshee)|[@encoreKwang](https://github.com/encoreKwang)|[@leepeace](https://github.com/leepeace)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)|
 
 
 ## 💡 8월 스터디 결과
+#### 스터디 그룹 : [AlgoStudyS8G4](https://www.acmicpc.net/group/15464)
+
+
 #### 👩‍👦‍👦 참가자
 |김세희|홍예진|황예은|
 |-----|-----|-----|
 |[@shshshee](https://github.com/shshshee)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)|
+
+
+#### ✏ 풀이 문제
+|회차|사이트|문제|
+|:---|---|---|
+|1회차 문풀(22.08.01)|BOJ|[1769번 3의 배수](https://www.acmicpc.net/problem/1769)<br/>[14888번 연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|
+|2회차 과제(22.08.01 - 22.08.02)|BOJ|[10994번 별찍기](https://www.acmicpc.net/problem/10994)<br/>[11729번 하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)|
+|2회차 문풀(22.08.02)|BOJ|[17413번 단어 뒤집기2](https://www.acmicpc.net/problem/17413)|
+|3회차 과제(22.08.02 - 22.08.05)|BOJ|[2484번 주사위 네개](https://www.acmicpc.net/problem/2484)<br/>[1966번 프린터 큐](https://www.acmicpc.net/problem/1966)<br/>[2800번 괄호 제거](https://www.acmicpc.net/problem/2800)|
+|4회차 과제(22.08.05 - 22.08.11)|BOJ|[1062번 가르침](https://www.acmicpc.net/problem/1062)<br/>[5639번 이진 검색 트리](https://www.acmicpc.net/problem/5639)|
+|5회차 과제(22.08.11 - 22.08.16)|BOJ|[11725번 트리의 부모 찾기](https://www.acmicpc.net/problem/11725)<br/>[9934번 완전 이진 트리](https://www.acmicpc.net/problem/9934)|
+|6회차 과제(22.08.16 - 22.08.19)|BOJ|[11000번 강의실 배정](https://www.acmicpc.net/problem/11000)<br/>[16953번 A → B](https://www.acmicpc.net/problem/16953)|
+|7회차 과제(22.08.19 - 22.08.23)|BOJ|[9205번 맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205)<br/>[13904번 과제](https://www.acmicpc.net/problem/13904)|
+|7회차 과제(22.08.23 - 22.08.26)|BOJ|[17070번 파이프 옮기기 1](https://www.acmicpc.net/problem/17070)<br/>[10026번 적록색약](https://www.acmicpc.net/problem/10026)|
