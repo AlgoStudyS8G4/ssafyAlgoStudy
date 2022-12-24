@@ -22,8 +22,8 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 ||[@shshshee](https://github.com/shshshee)|[@encoreKwang](https://github.com/encoreKwang)|[@leepeace](https://github.com/leepeace)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)||
 |1주차(22.12.03)|O(X)|O(O)|O()|O(O)|O(X)||
 |2주차(22.12.10)|X(O)|O(X)|X(X)|O(O)|O(△)|광용: 복습 O|
-|3주차(22.12.17)|O(O)|O(X)|O(O)|O(O)|O(X)||
-|4주차(22.12.24)| | | | | | |
+|3주차(22.12.17)|O(O)|O(X)|O(O)|O(O)|O(X)|광용: 복습 O|
+|4주차(22.12.24)|O(O)|O(O)|O(X)|X(`)|O(X)||
 |5주차(22.12.31)| | | | | | |
 
 #### ✒ 공통 풀이 문제
@@ -33,16 +33,16 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 |2주차(22.12.03 - 22.12.10)|BOJ|[14658번 하늘에서 별똥별이 빗발친다](https://www.acmicpc.net/problem/14658)|
 |3주차(22.12.10 - 22.12.17)|BOJ|[1238번 파티](https://www.acmicpc.net/problem/1238)|
 |4주차(22.12.17 - 22.12.24)|BOJ|[22233번 가희와 키워드](https://www.acmicpc.net/problem/22233)|
-|5주차(22.12.24 - 22.12.31)||[번 ]()|
+|5주차(22.12.24 - 22.12.31)|BOJ|[15989번 1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)<br/>[17615번 볼모으기](https://www.acmicpc.net/problem/17615)|
 
 #### ✏ 개인 풀이 문제 : 
 |풀이자|1주차<br/>(22.11.26 - 22.12.03)|2주차<br/>(22.12.03 - 22.12.10)|3주차<br/>(22.12.10 - 22.12.17)|4주차<br/>(22.12.17 - 22.12.24)|5주차<br/>(22.12.24 - 22.12.31)|
 |---|---|---|---|---|---|
-|김세희|[PRO 피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946)|-|-|||
-|이광용|[BOJ 18808번 스티커붙이기](https://www.acmicpc.net/problem/18808)|-|-|||
-|이해민|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)|-|[BOJ 최단경로](https://www.acmicpc.net/problem/1753)|||
-|홍예진|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)<br/>[BOJ 17471번 게리맨더링](https://www.acmicpc.net/problem/17471)|-|[BOJ 마법사 상어와 복제](https://www.acmicpc.net/problem/23290)<br/>[BOJ 주사위 굴리기 2](https://www.acmicpc.net/problem/23288)|||
-|황예은|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)|-|-|||
+|김세희|[PRO 피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946)|-|-|-||
+|이광용|[BOJ 18808번 스티커붙이기](https://www.acmicpc.net/problem/18808)|-|-|[BOJ 최단경로](https://www.acmicpc.net/problem/1753)|-|
+|이해민|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)|[BOJ 최단경로](https://www.acmicpc.net/problem/1753)|-|[BOJ 로봇 청소기](https://www.acmicpc.net/problem/14503)|-|
+|홍예진|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)<br/>[BOJ 17471번 게리맨더링](https://www.acmicpc.net/problem/17471)|-|[BOJ 마법사 상어와 복제](https://www.acmicpc.net/problem/23290)<br/>[BOJ 주사위 굴리기 2](https://www.acmicpc.net/problem/23288)|-|-|
+|황예은|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)|-|-|-|-|
 
 
 ## 💡 11월 스터디 결과
