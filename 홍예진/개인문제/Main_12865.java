@@ -1,56 +1,53 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
+
 /**
-* 무게를 넘지않는 조합찾기 
-**/
+ * 22/12/27 학습. 복습 필요.
+ * Fraction Knapsack problem
+ */
 public class Main {
-	static int N, K, minW;
-	static Stuff[] stuffs;
-	static int ans;
-
-	public static void solve(int emptyWeight, int idx, int totalValue) {
-		if (N == idx || emptyWeight < stuffs[idx].weight) {
-			ans = Math.max(ans, totalValue);
-			return;
-		}
-
-		for (int i = idx; i < N; i++) {
-			solve(emptyWeight - stuffs[i].weight, i + 1, totalValue + stuffs[i].value);
-		}
-	}
+	static Integer[][] dp;
+	static int[] W;
+	static int[] V;
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		N = Integer.parseInt(st.nextToken());
-		K = Integer.parseInt(st.nextToken());
-		minW = Integer.MAX_VALUE;
-		ans = 0;
-		stuffs = new Stuff[N];
+		int N = Integer.parseInt(st.nextToken());
+		int K = Integer.parseInt(st.nextToken());
+		W = new int[N];
+		V = new int[N];
 		for (int i = 0; i < N; i++) {
 			st = new StringTokenizer(br.readLine());
-			int w = Integer.parseInt(st.nextToken());
-			int v = Integer.parseInt(st.nextToken());
-			stuffs[i] = new Stuff(w, v);
+			W[i] = Integer.parseInt(st.nextToken());
+			V[i] = Integer.parseInt(st.nextToken());
 		}
 
-		Arrays.sort(stuffs, (s1, s2) -> s2.weight - s1.weight); // 무거운 순 정렬
-		solve(K, 0, 0);
-		
-		System.out.println(ans);
+		dp = new Integer[N][K + 1];
+
+		System.out.println(knapsack(N - 1, K));
 	}
 
-	static class Stuff {
-		int weight, value;
+	static int knapsack(int i, int k) {
+		// i가 범위 밖
+		if (i < 0)
+			return 0;
 
-		public Stuff(int weight, int value) {
-			super();
-			this.weight = weight;
-			this.value = value;
+		// 탐색하지 않은 위치
+		if (dp[i][k] == null) {
+
+			// 현재 물건을 못담는다. = 이전까지에서 최선을 찾는다.
+			if (W[i] > k) {
+				dp[i][k] = knapsack(i - 1, k);
+			} else {
+				// 현재 물건을 담는 경우의 수 vs 담지 않는 경우의 수
+				dp[i][k] = Math.max(knapsack(i - 1, k), knapsack(i - 1, k - W[i]) + V[i]);
+			}
 		}
+
+		return dp[i][k];
 	}
 }
