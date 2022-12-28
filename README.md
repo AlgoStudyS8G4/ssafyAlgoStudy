@@ -1,5 +1,5 @@
-# ssafyAlgoStudy
-싸피 8기 알고리즘 스터디
+# AlgoStudy
+알고리즘 스터디
 
 백준 그룹 : [AlgoStudyS8G4](https://www.acmicpc.net/group/15464)
 
@@ -23,7 +23,7 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 |1주차(22.12.03)|O(X)|O(O)|O()|O(O)|O(X)||
 |2주차(22.12.10)|X(O)|O(X)|X(X)|O(O)|O(△)|광용: 복습 O|
 |3주차(22.12.17)|O(O)|O(X)|O(O)|O(O)|O(X)|광용: 복습 O|
-|4주차(22.12.24)|O(O)|O(O)|O(X)|X(`)|O(X)||
+|4주차(22.12.24)|O(O)|O(O)|O(X)|X(O)|O(X)||
 |5주차(22.12.31)| | | | | | |
 
 #### ✒ 공통 풀이 문제
