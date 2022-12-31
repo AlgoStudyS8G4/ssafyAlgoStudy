@@ -1,8 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.LinkedList;
-import java.util.Queue;
 
 public class Main {
 	static int n;
@@ -18,36 +16,31 @@ public class Main {
 		return num1 * num2;
 	}
 
-	public static int calculate(int left, int right) {
-		int num1 = Character.getNumericValue(input.charAt(left));
-		for (int i = left + 1; i < right; i += 2) {
-			char op = input.charAt(i);
-			int num2 = Character.getNumericValue(input.charAt(i + 1));
-			num1 = calculate(num1, op, num2);
-		}
-		return num1;
+	public static int getBracketValue(int idx) {
+		// idx번째 숫자와 idx+2번째 숫자의 연산으로 나온 결과를 반환
+		int num1 = Character.getNumericValue(input.charAt(idx));
+		char op = input.charAt(idx + 1);
+		int num2 = Character.getNumericValue(input.charAt(idx + 2));
+		return calculate(num1, op, num2);
 	}
 
-	public static void solve(int leftIdx, int num1, char op) {
-		System.out.println(op+" "+num1);
-		if (op == '$') {
+	public static void solve(int idx, int num1, char op) {
+
+		if (idx >= n) {
 			max = Math.max(max, num1);
 			return;
 		}
 
-		// 3+8*7-9*2
-		// (3)+8*7-9*2, (3+8)*7-9*2 ...
-		// 3+(8)*7-9*2, 3+(8*7)-9*2
-		// ...
-		// (3+8)*(7-9)*2
+		int num2 = Character.getNumericValue(input.charAt(idx));
+		char next_op = input.charAt(idx + 1);
+		solve(idx + 2, calculate(num1, op, num2), next_op);
 
-		for (int rightIdx = leftIdx; rightIdx < n; rightIdx += 2) {
-			char next_op = input.charAt(rightIdx + 1);
-			int num2 = calculate(leftIdx, rightIdx); // 괄호친 값
-			int next_num1 = calculate(num1, op, num2);
+		if (idx == n - 1)
+			return; // 마직막 숫자라면 탐색 중지.
 
-			solve(rightIdx + 2, next_num1, next_op);
-		}
+		next_op = input.charAt(idx + 3);
+		num2 = getBracketValue(idx);
+		solve(idx + 4, calculate(num1, op, num2), next_op);
 	}
 
 	public static void main(String args[]) throws IOException {
