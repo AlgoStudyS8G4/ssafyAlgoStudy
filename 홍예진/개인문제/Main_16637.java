@@ -48,12 +48,6 @@ public class Main {
 		n = Integer.parseInt(br.readLine());
 		input = br.readLine();
 
-		// 갈이가 3이하일 때는 괄호에 상관없이 값이 똑같이 나온다.
-		if (n <= 3) {
-			System.out.println(input);
-			return;
-		}
-
 		max = Integer.MIN_VALUE;
 		input += "$";
 		solve(0, 0, '+');
