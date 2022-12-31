@@ -24,7 +24,7 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 |2주차(22.12.10)|X(O)|O(X)|X(X)|O(O)|O(△)|광용: 복습 O|
 |3주차(22.12.17)|O(O)|O(X)|O(O)|O(O)|O(X)|광용: 복습 O|
 |4주차(22.12.24)|O(O)|O(O)|O(X)|X(O)|O(X)||
-|5주차(22.12.31)| | | | | | |
+|5주차(22.12.31)|O(O)|O(X)|O(O)|X(O)|O(X)||
 
 #### ✒ 공통 풀이 문제
 |주차|사이트|문제|
@@ -38,9 +38,9 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 #### ✏ 개인 풀이 문제 : 
 |풀이자|1주차<br/>(22.11.26 - 22.12.03)|2주차<br/>(22.12.03 - 22.12.10)|3주차<br/>(22.12.10 - 22.12.17)|4주차<br/>(22.12.17 - 22.12.24)|5주차<br/>(22.12.24 - 22.12.31)|
 |---|---|---|---|---|---|
-|김세희|[PRO 피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946)|-|-|-||
+|김세희|[PRO 피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946)|-|-|-|-|
 |이광용|[BOJ 18808번 스티커붙이기](https://www.acmicpc.net/problem/18808)|-|-|[BOJ 최단경로](https://www.acmicpc.net/problem/1753)|-|
-|이해민|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)|[BOJ 최단경로](https://www.acmicpc.net/problem/1753)|-|[BOJ 로봇 청소기](https://www.acmicpc.net/problem/14503)|-|
+|이해민|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)|[BOJ 최단경로](https://www.acmicpc.net/problem/1753)|-|[BOJ 로봇 청소기](https://www.acmicpc.net/problem/14503)|[BOJ 유기농 배추](https://www.acmicpc.net/problem/1012)|
 |홍예진|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)<br/>[BOJ 17471번 게리맨더링](https://www.acmicpc.net/problem/17471)|-|[BOJ 마법사 상어와 복제](https://www.acmicpc.net/problem/23290)<br/>[BOJ 주사위 굴리기 2](https://www.acmicpc.net/problem/23288)|[BOJ 평범한 배낭](https://www.acmicpc.net/problem/12865)|-|
 |황예은|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)|-|-|-|-|
 
