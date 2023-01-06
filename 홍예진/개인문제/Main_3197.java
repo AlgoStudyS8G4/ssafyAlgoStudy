@@ -8,7 +8,6 @@ import java.util.StringTokenizer;
 public class Main {
 	static int R, C;
 	static char[][] lake;
-	static boolean[][] visited;
 	static Point[] swans;
 	static int[][] delta = { { -1, 0 }, { 1, 0 }, { 0, 1 }, { 0, -1 } };
 
@@ -31,11 +30,8 @@ public class Main {
 
 		for (int i = 0; i < R; i++) {
 			for (int j = 0; j < C; j++) {
-				if (visited[i][j])
-					continue;
 				if (lake[i][j] == 'X' && isWaterContact(i, j)) {
 					q.add(new Point(i, j));
-					visited[i][j] = true;
 				}
 			}
 		}
@@ -43,26 +39,27 @@ public class Main {
 		return q;
 	}
 
-	public static boolean isConnect() {
-
-		boolean[][] visited = new boolean[R][C];
-		visited[swans[0].i][swans[0].j] = true;
+	public static boolean isConnect(int start) {
+		int end = (start+1)%2;
+		
 		Queue<Point> q = new LinkedList<>();
-		q.add(swans[0]);
+		q.add(swans[start]);
+		lake[swans[start].i][swans[start].j] = '0';
 
 		while (!q.isEmpty()) {
 			Point p = q.poll();
+		
 			for (int[] d : delta) {
 				int ni = p.i + d[0];
 				int nj = p.j + d[1];
-				if (ni == swans[1].i && nj == swans[1].j)
+				if (ni == swans[end].i && nj == swans[end].j)
 					return true;
 
 				if (inBoundary(ni, nj)) {
 
-					if (!visited[ni][nj] && lake[ni][nj] == '.') {
+					if (lake[ni][nj] == '.') {
 						q.add(new Point(ni, nj));
-						visited[ni][nj] = true;
+						lake[ni][nj] = (char) (start);
 					}
 				}
 
@@ -71,22 +68,41 @@ public class Main {
 
 		return false;
 	}
+	
+	// p위치가 X에서 .으로 바뀌는 순간, 인근의 0과 1이 이어지는 셈
+	public static boolean checkConnect(Point p) {
+		boolean zero = false;
+		boolean one = false;
+		for (int[] d : delta) {
+			int ni = p.i + d[0];
+			int nj = p.j + d[1];
 
+			if (inBoundary(ni, nj)) {
+				if(lake[ni][nj] == '0')
+					zero = true;
+				if(lake[ni][nj] == '1')
+					one = true;
+			}
+		}
+		return zero && one;
+	}
+
+	
 	public static void solve() {
 		int count = 0;
 		Queue<Point> q = getPoints();
-		while (!isConnect()) {
+		while (!isConnect(0)) {
 			count++;
 			int qSize = q.size();
 			while (qSize-- > 0) {
 				Point p = q.poll();
-				visited[p.i][p.j] = true;
 				lake[p.i][p.j] = '.';
+				
 				for (int[] d : delta) {
 					int ni = p.i + d[0];
 					int nj = p.j + d[1];
 
-					if (inBoundary(ni, nj) && !visited[ni][nj] && lake[ni][nj] == 'X') {
+					if (inBoundary(ni, nj) && lake[ni][nj] == 'X') {
 						q.add(new Point(ni, nj));
 					}
 				}
@@ -112,16 +128,13 @@ public class Main {
 		R = Integer.parseInt(st.nextToken());
 		C = Integer.parseInt(st.nextToken());
 		lake = new char[R][C];
-		visited = new boolean[R][C];
 		swans = new Point[2];
 		int sIdx = 0;
 
 		for (int i = 0; i < R; i++) {
 			lake[i] = br.readLine().toCharArray();
 			for (int j = 0; j < C; j++) {
-				if (lake[i][j] == '.')
-					visited[i][j] = true;
-				else if (lake[i][j] == 'L')
+				if (lake[i][j] == 'L')
 					swans[sIdx++] = new Point(i, j);
 			}
 		}
