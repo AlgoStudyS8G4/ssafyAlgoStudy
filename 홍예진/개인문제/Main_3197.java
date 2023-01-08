@@ -5,111 +5,83 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-// 시간초과, 메모리 초과
+// 메모리초과
 public class Main {
 	static int R, C;
 	static char[][] lake;
 	static Point[] swans;
+	static Queue<Point> q;
 	static int[][] delta = { { -1, 0 }, { 1, 0 }, { 0, 1 }, { 0, -1 } };
+	static Queue<Point> nearList;
 
 	public static boolean inBoundary(int i, int j) {
-		return 0 <= i && i < R && 0 <= j && j < C;
+		return 0 <= i && 0 <= j && i < R && j < C;
 	}
 
-	public static boolean isWaterContact(int i, int j) {
-		for (int[] d : delta) {
-			int ni = i + d[0];
-			int nj = j + d[1];
-			if (inBoundary(ni, nj) && lake[ni][nj] == '.')
-				return true;
-		}
-		return false;
-	}
-
-	public static Queue<Point> getPoints() {
-		Queue<Point> q = new LinkedList<>();
-
-		for (int i = 0; i < R; i++) {
-			for (int j = 0; j < C; j++) {
-				if (lake[i][j] == 'X' && isWaterContact(i, j)) {
-					q.add(new Point(i, j));
-				}
-			}
-		}
-
-		return q;
-	}
-
-	public static boolean isConnect(int start) {
-		int end = (start+1)%2;
-		
-		Queue<Point> q = new LinkedList<>();
-		q.add(swans[start]);
-		lake[swans[start].i][swans[start].j] = '0';
+	// 백조 0의 호수에 인접한 좌표를 모두 @으로 바꾼다.
+	// 이 과정에서 백조1를 만난다면 true 반환
+	public static boolean isConnect() {
 
 		while (!q.isEmpty()) {
 			Point p = q.poll();
-		
-			for (int[] d : delta) {
+			lake[p.i][p.j] = '@';
+
+			if (p.i == swans[1].i && p.j == swans[1].j)
+				return true;
+
+			for (int d[] : delta) {
 				int ni = p.i + d[0];
 				int nj = p.j + d[1];
-				if (ni == swans[end].i && nj == swans[end].j)
-					return true;
-
-				if (inBoundary(ni, nj)) {
-
-					if (lake[ni][nj] == '.') {
-						q.add(new Point(ni, nj));
-						lake[ni][nj] = (char) (start);
-					}
-				}
-
+				if (inBoundary(ni, nj) && lake[ni][nj] == '.')
+					q.add(new Point(ni, nj));
 			}
 		}
 
 		return false;
 	}
-	
-	// p위치가 X에서 .으로 바뀌는 순간, 인근의 0과 1이 이어지는 셈
-	public static boolean checkConnect(Point p) {
-		boolean zero = false;
-		boolean one = false;
-		for (int[] d : delta) {
-			int ni = p.i + d[0];
-			int nj = p.j + d[1];
 
-			if (inBoundary(ni, nj)) {
-				if(lake[ni][nj] == '0')
-					zero = true;
-				if(lake[ni][nj] == '1')
-					one = true;
-			}
-		}
-		return zero && one;
-	}
+	// 호수에 닿아있는 빙판을 녹인다.
+	public static void melt() {
+		int qSize = nearList.size();
 
-	
-	public static void solve() {
-		int count = 0;
-		Queue<Point> q = getPoints();
-		while (!isConnect(0)) {
-			count++;
-			int qSize = q.size();
-			while (qSize-- > 0) {
-				Point p = q.poll();
-				lake[p.i][p.j] = '.';
-				
-				for (int[] d : delta) {
-					int ni = p.i + d[0];
-					int nj = p.j + d[1];
+		while (qSize-- > 0) {
+			Point p = nearList.poll();
+			lake[p.i][p.j] = '.';
 
-					if (inBoundary(ni, nj) && lake[ni][nj] == 'X') {
-						q.add(new Point(ni, nj));
-					}
+			if (isNearTo(p.i, p.j, '@'))
+				q.add(p);
+
+			for (int d[] : delta) {
+				int ni = p.i + d[0];
+				int nj = p.j + d[1];
+				if (inBoundary(ni, nj) && lake[ni][nj] == 'X') {
+					nearList.add(new Point(ni, nj));
+					lake[ni][nj] = 'T'; // 다음 녹을 빙하. 중복방지를 위해 임시로 T로 표기한다.
 				}
 			}
+
 		}
+	}
+
+	public static void solve() {
+		int count = 0;
+		while (!isConnect()) {
+			count++;
+			// 빙판이 녹는다. 이때 인근의 빙판(X)이 다음 녹을 리스트로 추가된다.
+			melt();
+
+		}
+
 		System.out.println(count);
+	}
+
+	public static void getNearList() {
+		for (int i = 0; i < R; i++) {
+			for (int j = 0; j < C; j++) {
+				if (lake[i][j] == 'X' && isNearTo(i, j, '.'))
+					nearList.add(new Point(i, j));
+			}
+		}
 	}
 
 	static class Point {
@@ -121,6 +93,19 @@ public class Main {
 			this.j = j;
 		}
 
+		public String toString() {
+			return "(" + i + ", " + j + ")";
+		}
+	}
+
+	public static boolean isNearTo(int i, int j, char target) {
+		for (int d[] : delta) {
+			int ni = i + d[0];
+			int nj = j + d[1];
+			if (inBoundary(ni, nj) && lake[ni][nj] == target)
+				return true;
+		}
+		return false;
 	}
 
 	public static void main(String[] args) throws IOException {
@@ -131,15 +116,20 @@ public class Main {
 		lake = new char[R][C];
 		swans = new Point[2];
 		int sIdx = 0;
+		q = new LinkedList<>();
+		nearList = new LinkedList<>();
 
 		for (int i = 0; i < R; i++) {
 			lake[i] = br.readLine().toCharArray();
 			for (int j = 0; j < C; j++) {
-				if (lake[i][j] == 'L')
+				if (lake[i][j] == 'L') {
 					swans[sIdx++] = new Point(i, j);
+					lake[i][j] = '.';
+				}
 			}
 		}
-
+		getNearList();
+		q.add(swans[0]);
 		solve();
 	}
 }
