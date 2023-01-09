@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-// 메모리초과
+//  메모리초과
 public class Main {
 	static int R, C;
 	static char[][] lake;
